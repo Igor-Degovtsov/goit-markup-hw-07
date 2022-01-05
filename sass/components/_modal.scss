@@ -90,6 +90,10 @@
       border: 1px solid rgba(33, 150, 243, 1);
       border-radius: 4px;
       cursor: pointer;}
+      &:focus   {
+        .input-icon{
+        fill: var(--active-text-color);}
+      }
   }
   
   .input-icon {
@@ -105,10 +109,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .modal-form-input:focus   {
-    .input-icon{
-    fill: var(--active-text-color);}
-  }
+  
   
   .modal-textarea {
     width: 100%;

@@ -23,6 +23,8 @@
   .custumers-list-item {
     width: 170px;
     height: 92px;
+    &:not(:last-child) {
+      margin-right: 30px;}
   }
   
   .custumers-link {
@@ -52,7 +54,5 @@
     fill: var(--main-button-color);}
   }
     
-  .custumers-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
+  
   
