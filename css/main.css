@@ -115,15 +115,14 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact:hover,
-.header-contact:focus {
+.header .header-contact:hover, .header .header-contact:focus {
   color: var(--active-text-color);
 }
 
-.icon-contact {
-  fill: var(--main-text-color);
-  margin-right: 10px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.header-contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
 }
 
 .header-contact:hover .icon-contact,
@@ -131,10 +130,10 @@ body {
   fill: var(--active-text-color);
 }
 
-.header-contact {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
+.icon-contact {
+  fill: var(--main-text-color);
+  margin-right: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts {
