@@ -27,12 +27,7 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .header-list :hover,
-  .header-list :focus {
-    color: var(--active-text-color);
-  }
-  
-  .header-nav {
+  .header-navigate {
     display: flex;
     align-items: center;
   }
@@ -42,8 +37,11 @@
     align-items: center;
   }
   
-  .header-list {
+  .navigate-list {
     display: flex;
+    & :hover,
+    & :focus {
+    color: var(--active-text-color);}
   }
   
   .header-communication {

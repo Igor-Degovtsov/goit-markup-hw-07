@@ -17,11 +17,11 @@
     text-align: center;
   }
   
-  .hero-container {
+  .hero_container {
     flex-grow: 1;
   }
   
-  .hero-text {
+  .hero_text {
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
@@ -41,7 +41,7 @@
     color: var(--accent-text-color);
   }
   
-  .hero-btn {
+  .hero_btn {
     padding: 10px 32px 10px 32px;
     min-width: 200px;
     min-height: 50px;
