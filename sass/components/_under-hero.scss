@@ -1,11 +1,11 @@
-.uh-section {
+.rules-list_item {
     width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;}
     }
-    .uh-section:not(:last-child) {
-      margin-right: 30px;
-    }
+    
   
-  .uh-link {
+  .rules-list_icon {
     width: 100%;
     height: 100%;
     background-color: var(--background-team);
@@ -16,11 +16,11 @@
     height: 120px;    
   }
   
-  .uh-list {
+  .rules-list {
     display: flex;
   }
   
-  .uh-title {
+  .rules-list_title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -30,7 +30,7 @@
     padding-bottom: 10px;
   }
   
-  .uh-item {
+  .rules-list_text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
