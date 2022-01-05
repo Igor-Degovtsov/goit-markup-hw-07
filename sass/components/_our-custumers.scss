@@ -38,25 +38,20 @@
   
   .custumers-link {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .icon-custumers {
-    transition: fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .custumers-link:focus,
-  .custumers-link:hover {
-    border: 1px solid var(--main-button-color);
-  }
-  
-  .custumers-link:hover .icon-custumers,
-  .custumers-link:focus .icon-custumers {
-    fill: var(--main-button-color);
+    &:focus,
+    &:hover {
+      border: 1px solid var(--main-button-color);
+      fill: var(--main-button-color);}
   }
   
   .icon-custumers {
     fill: var(--icon-socialnetwork-color);
+    transition: fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .custumers-link:hover &,
+    .custumers-link:focus & {
+    fill: var(--main-button-color);}
   }
+    
   .custumers-list-item:not(:last-child) {
     margin-right: 30px;
   }

@@ -75,22 +75,17 @@
     align-items: center;
     justify-content: center;
     transition: background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: var(--active-text-color);}
   }
   
   .icon-socialnetwork {
     transition: fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .socialnetworks:hover,
-  .socialnetworks:focus {
-    background-color: var(--active-text-color);
-  }
-  
-  .icon-socialnetwork {
     fill: var(--icon-socialnetwork-color);
+    .socialnetworks:hover &,
+    .socialnetworks:focus & {
+    fill: var(--second-text-color);}
   }
   
-  .socialnetworks:hover .icon-socialnetwork,
-  .socialnetworks:focus .icon-socialnetwork {
-    fill: var(--second-text-color);
-  }
+  
