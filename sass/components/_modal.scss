@@ -44,13 +44,11 @@
   .modal-close-icon {
     fill: rgba(0, 0, 0, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+      fill: var(--active-text-color);}
   }
-  
-  .modal-close-icon:focus,
-  .modal-close-icon:hover {
-    fill: var(--active-text-color);
-  }
-  
+    
   .is-hidden {
     visibility: hidden;
     opacity: 0;
@@ -88,13 +86,10 @@
     color: var(--accent-text-color);
     outline: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .modal-form-input:focus,
-  .modal-textarea:focus {
-    border: 1px solid rgba(33, 150, 243, 1);
-    border-radius: 4px;
-    cursor: pointer;
+    &:focus {
+      border: 1px solid rgba(33, 150, 243, 1);
+      border-radius: 4px;
+      cursor: pointer;}
   }
   
   .input-icon {
@@ -124,15 +119,17 @@
     resize: none;
     outline: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+      border: 1px solid rgba(33, 150, 243, 1);
+      border-radius: 4px;
+      cursor: pointer;}
+      &::placeholder {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);}
   }
-  
-  .modal-textarea::placeholder {
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-  }
-  
+   
   .modal-field-checkbox {
    margin-top: 20px;
     margin-bottom: 30px;
@@ -203,13 +200,11 @@
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
+    &:focus,
+    &:hover {
+      background-color: #188ce8;}
   }
-  
-  .modal-button:focus,
-  .modal-button:hover {
-    background-color: #188ce8;
-  }
-  
+   
   .check-icon {
     position: absolute;
     width: 11px;
