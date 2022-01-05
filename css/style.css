@@ -234,6 +234,13 @@ body {
 }
 
 /*under-hero*/
+.uh-section {
+  width: 270px;
+  }
+  .uh-section:not(:last-child) {
+    margin-right: 30px;
+  }
+
 .uh-link {
   width: 100%;
   height: 100%;
@@ -243,6 +250,7 @@ body {
   justify-content: center;
   width: 270px;
   height: 120px;
+  
 }
 
 .uh-list {
