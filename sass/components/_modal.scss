@@ -169,9 +169,10 @@
     justify-content: center;
   }
   
-  .modal-check:checked + .agree-text .agree-item {
-    background-color: #188ce8;
-    border: none;
+  .modal-check:checked + .agree-text  {
+    .agree-item {
+      background-color: #188ce8;
+      border: none;}
   }
   
   .fieldset-agree {
