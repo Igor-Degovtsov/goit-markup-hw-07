@@ -7,9 +7,10 @@
     transition: opacity 1000ms, visibility 1000ms;
   }
   
-  .backdrop.is-hidden .modal {
-    transform: scale(1.7) rotate(90deg);
-    transition: transform 500ms;
+  .backdrop.is-hidden  {
+    .modal {
+      transform: scale(1.7) rotate(90deg);
+      transition: transform 500ms;}
   }
   
 .modal {
