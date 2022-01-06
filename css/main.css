@@ -736,6 +736,7 @@ body {
 .backdrop {
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
   transition: opacity 1000ms, visibility 1000ms;
@@ -761,7 +762,7 @@ body {
   padding: 40px;
 }
 
-.modal-close {
+.modal_close-btn {
   width: 30px;
   height: 30px;
   background-color: #fff;
@@ -773,12 +774,12 @@ body {
   top: 8px;
 }
 
-.modal-close-icon {
+.modal_close-icon {
   fill: black;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-icon:focus, .modal-close-icon:hover {
+.modal_close-icon:focus, .modal_close-icon:hover {
   fill: var(--active-text-color);
 }
 
