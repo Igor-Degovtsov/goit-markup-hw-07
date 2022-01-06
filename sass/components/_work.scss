@@ -1,9 +1,9 @@
-.work-item-picture {
+.work-list_item {
     position: relative;
     margin-right: 30px;
   }
   
-  .work-text {
+  .work-list_text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -30,15 +30,15 @@
     color: var(--accent-text-color);
     margin-bottom: 50px;
   }
-  .work-section {
+  .work {
     padding-top: 0px;
   }
   
-  .work-paragraph {
+  .work_title {
     text-align: center;
   }
   
-  .work-item {
+  .work-list {
     display: flex;
     text-align: center;
     margin-right: -30px;
