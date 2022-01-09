@@ -1,4 +1,4 @@
-.button-style {
+.portfolio__list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -6,7 +6,7 @@
     cursor: pointer;
   }
   
-  .button-list {
+  .portfolio__button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -29,6 +29,6 @@
     }
   }
   
-  .btn-potfolio:not(:last-child) {
+  .portfolio__item:not(:last-child) {
     padding-right: 8px;
   }
