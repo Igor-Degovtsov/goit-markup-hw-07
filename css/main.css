@@ -254,12 +254,12 @@ body {
   color: var(--main-text-color);
 }
 
-.work-list_item {
+.work-list__item {
   position: relative;
   margin-right: 30px;
 }
 
-.work-list_text {
+.work-list__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -287,11 +287,11 @@ body {
   margin-bottom: 50px;
 }
 
-.work {
+.work-section {
   padding-top: 0px;
 }
 
-.work_title {
+.work__title {
   text-align: center;
 }
 
@@ -421,17 +421,17 @@ body {
   display: flex;
 }
 
-.container-member {
+.team__member {
   display: flex;
   justify-content: space-between;
 }
 
-.team {
+.team-section {
   background-color: var(--background-team);
   display: flex;
 }
 
-.team-list_title {
+.team-list__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -440,18 +440,18 @@ body {
   margin-top: 30px;
 }
 
-.team-list_member {
+.team-list__member {
   background: var(--second-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
-.team-list_member:not(:last-child) {
+.team-list__member:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-list_text {
+.team-list__text {
   font-style: regular;
   font-size: 16px;
   line-height: 1.71;
@@ -464,24 +464,24 @@ body {
   margin: 30px 32px;
 }
 
-.team_socialnetworks-list {
+.team__socialnetworks-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
   margin-bottom: 30px;
 }
 
-.socialnetworks-list_item {
+.socialnetworks-list__item {
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 
-.socialnetworks-list_item:not(:last-child) {
+.socialnetworks-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.socialnetworks-list_link {
+.socialnetworks-list__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -492,21 +492,21 @@ body {
   transition: background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socialnetworks-list_link:hover, .socialnetworks-list_link:focus {
+.socialnetworks-list__link:hover, .socialnetworks-list__link:focus {
   background-color: var(--active-text-color);
 }
 
-.socialnetworks-list_icon {
+.socialnetworks-list__icon {
   transition: fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #AFB1B8;
 }
 
-.socialnetworks-list_link:hover .socialnetworks-list_icon,
-.socialnetworks-list_link:focus .socialnetworks-list_icon {
+.socialnetworks-list__link:hover .socialnetworks-list__icon,
+.socialnetworks-list__link:focus .socialnetworks-list__icon {
   fill: var(--second-text-color);
 }
 
-.team_title {
+.team__title {
   text-align: center;
 }
 
