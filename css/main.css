@@ -301,7 +301,7 @@ body {
   margin-right: -30px;
 }
 
-.portfolio__list {
+.portfolio__btn-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -331,7 +331,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio__item:not(:last-child) {
+.portfolio__btn-item:not(:last-child) {
   padding-right: 8px;
 }
 
