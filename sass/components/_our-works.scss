@@ -13,14 +13,14 @@
   .portfolio__overlay {
     position: relative;
     overflow: hidden;
-    &:hover .overlay-text {
+    &:hover .overlay__text {
       transform: translateY(0);}
     &:hover::before,
     &:focus::before {
       opacity: 1;}
   }
   
-  .overlay-text {
+  .overlay__text {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,14 +54,14 @@
     display: block;
   }
   
-  .description-works {
+  .portfolio__description {
     padding: 20px 24px;
     background: #ffffff;
     border: 1px solid #eeeeee;
     box-sizing: border-box;
   }
   
-  .works-title {
+  .portfolio__description-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -69,7 +69,7 @@
     color: var(--accent-text-color);
   }
   
-  .works-item {
+  .portfolio__description-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;

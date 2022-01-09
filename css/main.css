@@ -352,7 +352,7 @@ body {
   overflow: hidden;
 }
 
-.portfolio__overlay:hover .overlay-text {
+.portfolio__overlay:hover .overlay__text {
   transform: translateY(0);
 }
 
@@ -360,7 +360,7 @@ body {
   opacity: 1;
 }
 
-.overlay-text {
+.overlay__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -393,14 +393,14 @@ body {
   display: block;
 }
 
-.description-works {
+.portfolio__description {
   padding: 20px 24px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
-.works-title {
+.portfolio__description-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -408,7 +408,7 @@ body {
   color: var(--accent-text-color);
 }
 
-.works-item {
+.portfolio__description-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
